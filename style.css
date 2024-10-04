@@ -9,12 +9,15 @@ html {
 	background-color: black;
 }
 
+/* Navbar */
+
 .navbar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	background-color: black;
 	padding: 15px 20px;
+	border: 1px solid white;
 }
 
 .logo-container {
@@ -53,16 +56,19 @@ html {
 	color: gold;
 }
 
+/* Home */
+
 .hero-container {
 	margin: 0px 65px;
 	padding: 24px 48px;
-	background-color: darkgray;
+	background-color: black;
 }
 
 .hero-sub-container {
 	display: flex;
-	background-color: gray;
+	background-color: black;
 	padding: 50px 0px;
+	border: 1px solid white;
 	margin: 0px 0px;
 }
 
@@ -119,4 +125,12 @@ html {
 	padding: 8px 24px;
 	border-radius: 5px;
 	text-decoration: none;
+}
+
+/* Resume */
+
+.resume-text {
+	color: white;
+	margin: 50px 0 0 0;
+	padding: 0 24px;
 }

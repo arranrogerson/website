@@ -134,3 +134,8 @@ html {
 	margin: 50px 0 0 0;
 	padding: 0 24px;
 }
+
+/* course workspace */
+.invisible {
+	visibility: hidden;
+}
